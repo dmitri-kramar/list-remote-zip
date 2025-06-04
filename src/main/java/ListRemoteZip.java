@@ -27,7 +27,7 @@ public class ListRemoteZip {
      * @throws IllegalArgumentException if the input is invalid
      */
     static void isValidInput(String[] args) throws IllegalArgumentException {
-        String message = "incorrect input, use: java ListRemoteZip <URL>.zip";
+        String message = "incorrect input, use valid <URL>.zip";
 
         if (args.length != 1) {
             throw new IllegalArgumentException(message);
