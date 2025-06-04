@@ -23,15 +23,19 @@ It uses HTTP range requests to fetch only the End of Central Directory (EOCD) an
 1. Clone or download the project.
 2. Open a terminal in the root project folder.
 3. Compile the program:
-    ```sh
+    
+   ```sh
     javac src/main/java/ListRemoteZip.java
     ```
 4. Run the program:
-    ```sh
+    
+   ```sh
     java -cp src/main/java ListRemoteZip <URL>.zip
     ```
-   **Example:**
-    ```sh
+   
+5. **Example:**
+    
+   ```sh
     java -cp src/main/java ListRemoteZip https://sample-files.com/downloads/compressed/zip/mixed-files.zip
     ```
 
